@@ -1,5 +1,6 @@
 "use strict";
 
+
 const result = document.querySelector(`.result`);
 const preview = document.querySelector(`.preview`);
 
