@@ -11,51 +11,28 @@
     <title>Calculator</title>
 </head>
 <body>
-    
     <h1 class="up"></h1>
 
-    <div class="table-overlay">
-        <table width="300" height="600">
-            <tr class="row-one">
-                <td class="preview" colspan="4" align="right" valign="middle">0</td>
+    <div class="overlay">
+        <div class="display">
+            <p class="preview"></p>
+            <p class="result"></p>
+        </div>
 
-            </tr>
-            <tr class="row-two">
-                <td class="result" colspan="4" align="right" valign="middle">0</td>
-            </tr>
-            <tr class="row-three">
-                <td class="delete-all" colspan="2" align="center" valign="middle">C</td>
-                <td class="backspace" align="center" valign="middle">↳</td>
-                <td class="devide" align="center" valign="middle">÷</td>
-            </tr>
-            <tr class="row-four">
-                <td class="seven" align="center" valign="middle">7</td>
-                <td class="eight" align="center" valign="middle">8</td>
-                <td class="nine" align="center" valign="middle">9</td>
-                <td class="times" align="center" valign="middle">×</td>
-            </tr>
-            <tr class="row-five">
-                <td class="four" align="center" valign="middle">4</td>
-                <td class="five" align="center" valign="middle">5</td>
-                <td class="six" align="center" valign="middle">6</td>
-                <td class="minus" align="center" valign="middle">–</td>
-            </tr>
-            <tr class="row-six">
-                <td class="one" align="center" valign="middle">1</td>
-                <td class="two" align="center" valign="middle">2</td>
-                <td class="three" align="center" valign="middle">3</td>
-                <td class="plus" align="center" valign="middle">+</td>
-            </tr>
-            <tr class="row-seven">
-                <td class="dot" align="center" valign="middle">.</td>
-                <td class="zero" align="center" valign="middle">0</td>
-                <td class="equal" colspan="2" align="center" valign="middle">=</td>
-            </tr>
-        </table>
+        <div class="buttons">
+
+            <button class="delete-all">C</button><span></span><button class="backspace">D</button><span></span><button class="devide">÷</button> <br>
+            <button class="seven">7</button><span></span><button class="eight">8</button><span></span><button class="nine">9</button><span></span><button class="times">×</button> <br>
+            <button class="four">4</button><span></span><button class="five">5</button><span></span><button class="six">6</button><span></span><button class="minus">-</button> <br>
+            <button class="one">1</button><span></span><button class="two">2</button><span></span><button class="three">3</button><span></span><button class="plus">+</button> <br>
+            <button class="dot">.</button><span></span><button class="zero">0</button><span></span><button class="equal">=</button> 
+
+        </div>
+        
     </div>
 
     <h1 class="down"></h1>
 
     <script src="script.js"></script>
-</body>
+</body>  
 </html>
